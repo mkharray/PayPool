@@ -15,10 +15,6 @@ body {
     grid-area: 1/1;
 }
 
-#mini{
-    font-size: small;
-    font-weight: 700;
-}
 .form-container{
     text-align: center;
     position: relative;
@@ -27,13 +23,9 @@ body {
 .input-sign-in{
     height: 2.7vh;
     border-radius: 8px;
-    width: 240px;
+    width: 220px;
     font-weight: 600;
-    
-}
-#cat-pic{
-    z-index: -1;
-    margin-top: 32%;
+    margin-top: 10px;
 }
 #heading{
     font-size: 35px;
@@ -50,11 +42,12 @@ border-radius: 12px;
 font-weight: bold;
 text-decoration: none;
 color: #ffffff;
-background: #4d4a6b;
+background: #16d62f;
 transition: .4s;
 cursor: pointer;
 }
 #submit-button:hover {
     background: #37ee50;
+    background: #57556d;
     color: white;
 }
