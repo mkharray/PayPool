@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 body {
-	background: rgb(246, 253, 239);
+	background: rgb(236, 250, 221);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,28 +17,28 @@ body {
 
 #mini{
     font-size: small;
-    font-weight: 900;
+    font-weight: 700;
 }
 .form-container{
     text-align: center;
     position: relative;
-    padding-top: 15%;
 }
 
 .input-sign-in{
     height: 2.7vh;
     border-radius: 8px;
-    width: 140px;
-    font-weight: 700;
-    z-index: 10;
+    width: 240px;
+    font-weight: 600;
     
 }
 #cat-pic{
-    padding-top: 25%;
     z-index: -1;
-    opacity: 80%;
+    margin-top: 27%;
 }
 #heading{
-    font-size: 40px;
+    font-size: 35px;
     text-decoration-line: underline;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 900;
 }
