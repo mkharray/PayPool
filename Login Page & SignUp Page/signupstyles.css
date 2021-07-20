@@ -33,7 +33,7 @@ body {
 }
 #cat-pic{
     z-index: -1;
-    margin-top: 27%;
+    margin-top: 32%;
 }
 #heading{
     font-size: 35px;
@@ -41,4 +41,20 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 900;
+}
+#submit-button{
+margin-top: 15px;
+height: 5vh;
+width: 15vh;
+border-radius: 12px;
+font-weight: bold;
+text-decoration: none;
+color: #ffffff;
+background: #4d4a6b;
+transition: .4s;
+cursor: pointer;
+}
+#submit-button:hover {
+    background: #37ee50;
+    color: white;
 }
