@@ -8,22 +8,45 @@
     <link rel="stylesheet" href="signupstyles.css">
 </head>
 <body>
-    <div class="container">
+<div class="container">
         
-        <div class = "form-container">
+    <div class = "form-container">
         <h1 id="heading"> Create An Account</h1>
-        <form action="signup.html">
-            
-            <input class="input-sign-in" type="text" placeholder=" Full Name">
+        <form action="signup.html" id="signupform">
+            <input class="input-sign-in" id = "name" type="text" placeholder=" Full Name">
             <br>
-            <input class = "input-sign-in" type="email" placeholder=" Email Address">
+            <input class = "input-sign-in" id="email" type="email" placeholder=" Email Address">
             <br>
-            <input class="input-sign-in" type="password" placeholder=" Password">
+            <input class="input-sign-in" id = "password" type="password" placeholder=" Password">
             <br>
             <button id="submit-button">Sign Up</button>
-            </form>
-            </div>
+            <br>
+        </form>
+    </div>
             <img id = "pic" src="pic.svg">
-            </div>
+</div>
+            
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAunzbiCaOiiLRUBz684d3XJvsnkE4Ipro",
+    authDomain: "paypool-91e2d.firebaseapp.com",
+    projectId: "paypool-91e2d",
+    storageBucket: "paypool-91e2d.appspot.com",
+    messagingSenderId: "944971563787",
+    appId: "1:944971563787:web:411e4e691dc8579913180e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig); //intializes config 
+
+</script>
+
+<script src = "authfb.js"> </script>
+
 </body>
 </html>
