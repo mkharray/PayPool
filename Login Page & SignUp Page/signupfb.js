@@ -13,7 +13,6 @@
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
-    console.log(email,password);
 
     //sign up user
     //auth.createUserWithEmailAndPassword returns a PROMISE
@@ -26,9 +25,8 @@
       var textn = document.createTextNode(`Oops! ${err.message}`);
       span.appendChild(textn);
       document.getElementById("signupform").appendChild(span);
-      
       })
-  })
+  });
 
 
   // function signUp(){
@@ -39,3 +37,23 @@
   //   promise.catch(e => alert(e.message));
   //   alert(email.value);
   // }
+
+
+
+
+
+
+
+
+
+// const loginForm = document.getElementById("loginform");
+// loginForm.addEventListener("submit", (e) =>{
+// e.preventDefault();
+
+// //getting userinfo
+// var email = document.getElementById("email").value;
+// var password = document.getElementById("password").value;
+// console.log(email,password);
+
+// // auth.signInWithEmailAndPassword()
+// });

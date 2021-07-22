@@ -17,12 +17,12 @@
 
     <h1 id="heading">Hello Again,</h1>
 
-<form action="index.html">
+<form action="index.html" id = "loginform">
     <h3 id="headingtwo"> Welcome Back!</h3>
     
-    <input class = "input-sign-in" type="email" placeholder=" Email">
+    <input class = "input-sign-in" type="email" placeholder=" Email" id="email">
         <br>
-    <input class="input-sign-in" type="password" placeholder=" Password">
+    <input class="input-sign-in" type="password" placeholder=" Password" id="password">
         <br>
     <a href="#"> Forgot Password? </a>
 </form>
@@ -33,6 +33,27 @@
 </div>
 </div>
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAunzbiCaOiiLRUBz684d3XJvsnkE4Ipro",
+    authDomain: "paypool-91e2d.firebaseapp.com",
+    projectId: "paypool-91e2d",
+    storageBucket: "paypool-91e2d.appspot.com",
+    messagingSenderId: "944971563787",
+    appId: "1:944971563787:web:411e4e691dc8579913180e"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig); //intializes config 
+
+</script>
+
+<script src = "loginfb.js"> </script>
 
 
 </body>
